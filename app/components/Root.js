@@ -85,7 +85,8 @@ export default class Root extends Component {
 
     getViewLog = () => {
         if(window.localStorage) {
-            return JSON.parse(localStorage.getItem('videoViewsLog'));
+            const log = localStorage.getItem('videoViewsLog');
+            return log ? JSON.parse(log) : {};
         }
         return {}
     }
