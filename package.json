@@ -1,0 +1,36 @@
+{
+  "name": "react-video",
+  "version": "1.0.0",
+  "description": "Test app for react based video player",
+  "main": "index.js",
+  "author": "Elton Jain",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-hot-loader": "^1.3.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-dropzone": "^4.1.3",
+    "uuid": "^3.1.0",
+    "video.js": "^6.2.7"
+  }
+}
